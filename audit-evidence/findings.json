@@ -1,0 +1,212 @@
+[
+  {
+    "url": "http://127.0.0.1:8765/",
+    "code": "canonical_not_declared",
+    "severity": "low",
+    "evidence": "No HTML canonical link.",
+    "action": "Review URL variants; add a canonical when useful. HTTP Link canonicals are not parsed.",
+    "confidence": "review",
+    "representation": "http",
+    "affected_urls": [
+      "http://127.0.0.1:8765/"
+    ],
+    "observation": "No HTML canonical link.",
+    "captured_at": "2026-10-05T12:48:12.264019+00:00",
+    "claim_type": "inference",
+    "why_it_matters": "Review this recorded signal in the context of the page's intended customer journey.",
+    "business_relevance": null,
+    "recommended_action": "Review URL variants; add a canonical when useful. HTTP Link canonicals are not parsed.",
+    "priority": "P3",
+    "priority_rationale": "Based on observed access/content impact; review business importance before scheduling. Informational signals are not automatically defects.",
+    "acceptance_check": "Apply the stated action on the affected URL, recrawl it, and compare this exact evidence and issue code with the prior capture.",
+    "uncertainty": [
+      "Observation applies to captured representations; rankings, indexing and AI citations were not measured.",
+      "Business profile not yet reviewed; business-specific impact needs interpretation."
+    ],
+    "evidence_refs": [
+      {
+        "url": "http://127.0.0.1:8765/",
+        "captured_at": "2026-10-05T12:48:12.264019+00:00",
+        "representation": "http",
+        "body_sha256": "72fd26d309fe4070c8589e6ade3df117a3d4ed3df8ff42115732a002757e8ecc",
+        "html_path": "html/9e43572747173ea6c7db6eddb428c4a8049b417a4145495b0524fd9bdc450083.html",
+        "rendered_html_path": null
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:8765/",
+    "code": "noindex_observed",
+    "severity": "info",
+    "evidence": "A robots noindex/none directive applies.",
+    "action": "Confirm the directive matches the purpose of this page; intentional exclusions need no fix.",
+    "confidence": "review",
+    "representation": "http",
+    "affected_urls": [
+      "http://127.0.0.1:8765/"
+    ],
+    "observation": "A robots noindex/none directive applies.",
+    "captured_at": "2026-10-05T12:48:12.264019+00:00",
+    "claim_type": "inference",
+    "why_it_matters": "Review this recorded signal in the context of the page's intended customer journey.",
+    "business_relevance": null,
+    "recommended_action": "Confirm the directive matches the purpose of this page; intentional exclusions need no fix.",
+    "priority": "review",
+    "priority_rationale": "Based on observed access/content impact; review business importance before scheduling. Informational signals are not automatically defects.",
+    "acceptance_check": "Apply the stated action on the affected URL, recrawl it, and compare this exact evidence and issue code with the prior capture.",
+    "uncertainty": [
+      "Observation applies to captured representations; rankings, indexing and AI citations were not measured.",
+      "Business profile not yet reviewed; business-specific impact needs interpretation."
+    ],
+    "evidence_refs": [
+      {
+        "url": "http://127.0.0.1:8765/",
+        "captured_at": "2026-10-05T12:48:12.264019+00:00",
+        "representation": "http",
+        "body_sha256": "72fd26d309fe4070c8589e6ade3df117a3d4ed3df8ff42115732a002757e8ecc",
+        "html_path": "html/9e43572747173ea6c7db6eddb428c4a8049b417a4145495b0524fd9bdc450083.html",
+        "rendered_html_path": null
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:8765/privacy.html",
+    "code": "canonical_not_declared",
+    "severity": "low",
+    "evidence": "No HTML canonical link.",
+    "action": "Review URL variants; add a canonical when useful. HTTP Link canonicals are not parsed.",
+    "confidence": "review",
+    "representation": "http",
+    "affected_urls": [
+      "http://127.0.0.1:8765/privacy.html"
+    ],
+    "observation": "No HTML canonical link.",
+    "captured_at": "2026-10-05T12:48:12.878915+00:00",
+    "claim_type": "inference",
+    "why_it_matters": "Review this recorded signal in the context of the page's intended customer journey.",
+    "business_relevance": null,
+    "recommended_action": "Review URL variants; add a canonical when useful. HTTP Link canonicals are not parsed.",
+    "priority": "P3",
+    "priority_rationale": "Based on observed access/content impact; review business importance before scheduling. Informational signals are not automatically defects.",
+    "acceptance_check": "Apply the stated action on the affected URL, recrawl it, and compare this exact evidence and issue code with the prior capture.",
+    "uncertainty": [
+      "Observation applies to captured representations; rankings, indexing and AI citations were not measured.",
+      "Business profile not yet reviewed; business-specific impact needs interpretation."
+    ],
+    "evidence_refs": [
+      {
+        "url": "http://127.0.0.1:8765/privacy.html",
+        "captured_at": "2026-10-05T12:48:12.878915+00:00",
+        "representation": "http",
+        "body_sha256": "c620b50a52ebc0cae1e8d98f14af754881a95fbab548fde9ef60942b2211a78c",
+        "html_path": "html/d60dd480f7d1a98e50dfd388caa954801aba9c05ed15e6bb07961edb6626f80d.html",
+        "rendered_html_path": null
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:8765/privacy.html",
+    "code": "noindex_observed",
+    "severity": "info",
+    "evidence": "A robots noindex/none directive applies.",
+    "action": "Confirm the directive matches the purpose of this page; intentional exclusions need no fix.",
+    "confidence": "review",
+    "representation": "http",
+    "affected_urls": [
+      "http://127.0.0.1:8765/privacy.html"
+    ],
+    "observation": "A robots noindex/none directive applies.",
+    "captured_at": "2026-10-05T12:48:12.878915+00:00",
+    "claim_type": "inference",
+    "why_it_matters": "Review this recorded signal in the context of the page's intended customer journey.",
+    "business_relevance": null,
+    "recommended_action": "Confirm the directive matches the purpose of this page; intentional exclusions need no fix.",
+    "priority": "review",
+    "priority_rationale": "Based on observed access/content impact; review business importance before scheduling. Informational signals are not automatically defects.",
+    "acceptance_check": "Apply the stated action on the affected URL, recrawl it, and compare this exact evidence and issue code with the prior capture.",
+    "uncertainty": [
+      "Observation applies to captured representations; rankings, indexing and AI citations were not measured.",
+      "Business profile not yet reviewed; business-specific impact needs interpretation."
+    ],
+    "evidence_refs": [
+      {
+        "url": "http://127.0.0.1:8765/privacy.html",
+        "captured_at": "2026-10-05T12:48:12.878915+00:00",
+        "representation": "http",
+        "body_sha256": "c620b50a52ebc0cae1e8d98f14af754881a95fbab548fde9ef60942b2211a78c",
+        "html_path": "html/d60dd480f7d1a98e50dfd388caa954801aba9c05ed15e6bb07961edb6626f80d.html",
+        "rendered_html_path": null
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:8765/terms.html",
+    "code": "canonical_not_declared",
+    "severity": "low",
+    "evidence": "No HTML canonical link.",
+    "action": "Review URL variants; add a canonical when useful. HTTP Link canonicals are not parsed.",
+    "confidence": "review",
+    "representation": "http",
+    "affected_urls": [
+      "http://127.0.0.1:8765/terms.html"
+    ],
+    "observation": "No HTML canonical link.",
+    "captured_at": "2026-10-05T12:48:12.878915+00:00",
+    "claim_type": "inference",
+    "why_it_matters": "Review this recorded signal in the context of the page's intended customer journey.",
+    "business_relevance": null,
+    "recommended_action": "Review URL variants; add a canonical when useful. HTTP Link canonicals are not parsed.",
+    "priority": "P3",
+    "priority_rationale": "Based on observed access/content impact; review business importance before scheduling. Informational signals are not automatically defects.",
+    "acceptance_check": "Apply the stated action on the affected URL, recrawl it, and compare this exact evidence and issue code with the prior capture.",
+    "uncertainty": [
+      "Observation applies to captured representations; rankings, indexing and AI citations were not measured.",
+      "Business profile not yet reviewed; business-specific impact needs interpretation."
+    ],
+    "evidence_refs": [
+      {
+        "url": "http://127.0.0.1:8765/terms.html",
+        "captured_at": "2026-10-05T12:48:12.878915+00:00",
+        "representation": "http",
+        "body_sha256": "5013c75c2f1b10d5a14100888c959fabc1fc1eb6e1f74db95fab44f12e308f1a",
+        "html_path": "html/16963ef2483cfa164b746f3ee9168f12f4c80ce2b56fba0c013de0f1440146c3.html",
+        "rendered_html_path": null
+      }
+    ]
+  },
+  {
+    "url": "http://127.0.0.1:8765/terms.html",
+    "code": "noindex_observed",
+    "severity": "info",
+    "evidence": "A robots noindex/none directive applies.",
+    "action": "Confirm the directive matches the purpose of this page; intentional exclusions need no fix.",
+    "confidence": "review",
+    "representation": "http",
+    "affected_urls": [
+      "http://127.0.0.1:8765/terms.html"
+    ],
+    "observation": "A robots noindex/none directive applies.",
+    "captured_at": "2026-10-05T12:48:12.878915+00:00",
+    "claim_type": "inference",
+    "why_it_matters": "Review this recorded signal in the context of the page's intended customer journey.",
+    "business_relevance": null,
+    "recommended_action": "Confirm the directive matches the purpose of this page; intentional exclusions need no fix.",
+    "priority": "review",
+    "priority_rationale": "Based on observed access/content impact; review business importance before scheduling. Informational signals are not automatically defects.",
+    "acceptance_check": "Apply the stated action on the affected URL, recrawl it, and compare this exact evidence and issue code with the prior capture.",
+    "uncertainty": [
+      "Observation applies to captured representations; rankings, indexing and AI citations were not measured.",
+      "Business profile not yet reviewed; business-specific impact needs interpretation."
+    ],
+    "evidence_refs": [
+      {
+        "url": "http://127.0.0.1:8765/terms.html",
+        "captured_at": "2026-10-05T12:48:12.878915+00:00",
+        "representation": "http",
+        "body_sha256": "5013c75c2f1b10d5a14100888c959fabc1fc1eb6e1f74db95fab44f12e308f1a",
+        "html_path": "html/16963ef2483cfa164b746f3ee9168f12f4c80ce2b56fba0c013de0f1440146c3.html",
+        "rendered_html_path": null
+      }
+    ]
+  }
+]

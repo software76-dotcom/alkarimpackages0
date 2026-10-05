@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "checks": [
+    "Mobile 3D open, keyboard range, reset and capture",
+    "Reduced-motion interaction",
+    "Failed 3D download gives accessible fallback and disabled controls"
+  ],
+  "axe": []
+}

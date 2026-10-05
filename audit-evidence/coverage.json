@@ -1,0 +1,19 @@
+{
+  "page_attempt_limit": 4,
+  "selection": "priority",
+  "selected_urls": [],
+  "discovered_in_scope": 4,
+  "queued_urls": 4,
+  "discovered_not_attempted": 0,
+  "attempted": 4,
+  "inspected": 3,
+  "partial_captures": 0,
+  "blocked_or_failed": 0,
+  "not_inspected": 1,
+  "pending": 0,
+  "excluded_events": {
+    "out_of_scope": 1
+  },
+  "sitemap_urls_unchecked": 0,
+  "note": "Page slots count attempts, including failures. Robots/sitemaps and browser subrequests are separate; excluded counts are events, not unique URLs. Priority is a URL-role heuristic; review business relevance. No complete-site claim."
+}

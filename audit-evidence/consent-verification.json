@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "checks": [
+    "No analytics before consent or after rejection",
+    "Acceptance loads one mocked Google tag",
+    "Quote event queued without URL query or fragment",
+    "Withdrawal prevents tag loading after reload",
+    "Expired consent asks again",
+    "Storage-disabled browser remains usable",
+    "Production HTTPS 308 redirects use configured origin",
+    "Production HSTS header",
+    "Configured canonical and three-URL sitemap",
+    "Production robots sitemap reference"
+  ],
+  "limitations": [
+    "Google tag response mocked; no real Google Analytics property data collection verified",
+    "Synthetic domain and provider used only in private test fixture",
+    "No public TLS certificate tested"
+  ],
+  "external": [
+    "https://www.googletagmanager.com/gtag/js?id=G-TEST123456"
+  ]
+}

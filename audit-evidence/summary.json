@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "engine_version": "2.9.1",
+  "seed": "http://127.0.0.1:8765/",
+  "started_at": "2026-10-05T12:48:10.728340+00:00",
+  "exported_at": "2026-10-05T12:48:14.291136+00:00",
+  "configuration": {
+    "url": "http://127.0.0.1:8765/",
+    "max_pages": 4,
+    "max_depth": 6,
+    "workers": 4,
+    "delay": 0.5,
+    "timeout": 20,
+    "retries": 2,
+    "max_bytes": 5000000,
+    "max_discovered": 10000,
+    "max_sitemaps": 25,
+    "max_query_variants": 20,
+    "allow_hosts": [],
+    "exclude": [],
+    "allow_private": true,
+    "sitemaps": true,
+    "drop_tracking": true,
+    "save_html": true,
+    "render": false,
+    "render_wait_ms": 1000,
+    "render_max_requests": 100,
+    "render_allow_hosts": [],
+    "render_mode": "http",
+    "robots_policy": "ignore",
+    "render_asset_policy": "public",
+    "wait_for_selector": "",
+    "render_settle_ms": 1500,
+    "scroll_steps": 3,
+    "screenshot": false,
+    "headless": true,
+    "include_www": false,
+    "selection": "priority",
+    "selected_urls": []
+  },
+  "attempted_urls": 4,
+  "html_documents": 3,
+  "failed_or_http_error_urls": 0,
+  "discovered_urls": 4,
+  "pending_urls": 0,
+  "sitemap_urls": 0,
+  "findings": 6,
+  "severity_counts": {
+    "low": 3,
+    "info": 3
+  },
+  "frontier_exhausted": true,
+  "coverage_limited": false,
+  "rendered_documents": 0,
+  "render_errors": 0,
+  "render_content_warnings": 0,
+  "render_javascript_error_pages": 0,
+  "render_readiness_warnings": 0,
+  "sitemap_fetch_failures": 0,
+  "discovery_skips": {
+    "out_of_scope": 1
+  },
+  "coverage_note": "This is the discovered, scoped sample. It cannot establish that all site URLs were found. Canonical/robots observations do not prove indexing.",
+  "unmeasured": [
+    "search rankings",
+    "search volume",
+    "organic traffic",
+    "conversions",
+    "complete inbound backlink profile",
+    "Google-selected canonical",
+    "actual indexing",
+    "Core Web Vitals",
+    "structured-data semantic validity"
+  ],
+  "access_diagnostics": {
+    "assessment": "No supported access-denial or challenge signal was observed in this sample. This does not predict larger or later crawls.",
+    "page_access_counts": {
+      "response_received": 4
+    },
+    "remote_denial_or_challenge_pages": 0,
+    "remote_denial_or_challenge_discovery_responses": 0,
+    "http_access_denied_attempts_recorded": 0,
+    "challenge_attempts_recorded": 0,
+    "http_429_attempts_recorded": 0,
+    "http_attempts_recorded": 8,
+    "stop_reasons": [
+      "discovered_frontier_exhausted"
+    ],
+    "browser_restriction_counts": {},
+    "history_note": "Only instrumented HTTP attempts are counted, including recorded browser requests; legacy runs may lack attempt history."
+  },
+  "coverage": {
+    "page_attempt_limit": 4,
+    "selection": "priority",
+    "selected_urls": [],
+    "discovered_in_scope": 4,
+    "queued_urls": 4,
+    "discovered_not_attempted": 0,
+    "attempted": 4,
+    "inspected": 3,
+    "partial_captures": 0,
+    "blocked_or_failed": 0,
+    "not_inspected": 1,
+    "pending": 0,
+    "excluded_events": {
+      "out_of_scope": 1
+    },
+    "sitemap_urls_unchecked": 0,
+    "note": "Page slots count attempts, including failures. Robots/sitemaps and browser subrequests are separate; excluded counts are events, not unique URLs. Priority is a URL-role heuristic; review business relevance. No complete-site claim."
+  }
+}

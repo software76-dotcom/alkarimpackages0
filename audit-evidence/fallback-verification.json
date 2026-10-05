@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "checks": [
+    "No-JavaScript content and all three email links remain available",
+    "Analytics and consent UI inactive without JavaScript",
+    "Keyboard skip link focuses main content",
+    "Cookie settings Escape returns focus"
+  ]
+}

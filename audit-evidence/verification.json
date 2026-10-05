@@ -1,0 +1,87 @@
+{
+  "pages": [
+    {
+      "path": "/",
+      "width": 1440,
+      "initial": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "transfers": 129380,
+        "headings": 1,
+        "forms": 0
+      },
+      "axe": [],
+      "errors": []
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "initial": {
+        "width": 390,
+        "scrollWidth": 390,
+        "transfers": 129380,
+        "headings": 1,
+        "forms": 0
+      },
+      "axe": [],
+      "errors": []
+    },
+    {
+      "path": "/",
+      "width": 320,
+      "initial": {
+        "width": 320,
+        "scrollWidth": 320,
+        "transfers": 129380,
+        "headings": 1,
+        "forms": 0
+      },
+      "axe": [],
+      "errors": []
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "initial": {
+        "width": 768,
+        "scrollWidth": 768,
+        "transfers": 129380,
+        "headings": 1,
+        "forms": 0
+      },
+      "axe": [],
+      "errors": []
+    },
+    {
+      "path": "/privacy.html",
+      "status": 200,
+      "axe": []
+    },
+    {
+      "path": "/terms.html",
+      "status": 200,
+      "axe": []
+    },
+    {
+      "path": "/missing-page",
+      "status": 404,
+      "axe": []
+    },
+    {
+      "path": "/404.html",
+      "status": 404,
+      "axe": []
+    }
+  ],
+  "checks": [
+    "Internal anchors resolve",
+    "No preconsent external requests",
+    "No eager 3D download",
+    "No horizontal overflow 320–1440px",
+    "Desktop studio open/compare/capture/Escape",
+    "404 status",
+    "Private paths denied",
+    "POST returns 405",
+    "Security response headers"
+  ]
+}
